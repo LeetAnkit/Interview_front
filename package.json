@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "vercel-build": "./install-flutter.sh && flutter pub get && flutter build web"
+    "vercel-build": "./install-flutter.sh && ./flutter/bin/flutter pub get && ./flutter/bin/flutter build web"
   }
 }
