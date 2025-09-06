@@ -7915,7 +7915,7 @@ var $async$a3P=A.u(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:if($.aa==null)A.aGB()
 $.aa.toString
 s=2
-return A.B($.aTW().wo(0,".env"),$async$a3P)
+return A.B($.aTW().wo(0,"assets/.env"),$async$a3P)
 case 2:s=3
 return A.B(A.aac(A.aVD()),$async$a3P)
 case 3:if($.aa==null)A.aGB()
