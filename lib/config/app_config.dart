@@ -117,24 +117,19 @@ class AppConfig {
   static const String appName = 'AI Interview Coach';
   static const String version = '1.0.0';
 
-<<<<<<< HEAD
   // API Configuration
-//  Dynamically sets the backend API base URL using environment variables
+  // Dynamically sets the backend API base URL using environment variables
   static const String apiBase = String.fromEnvironment(
     'API_BASE',
     defaultValue: 'https://ai-interveiw-coach-app.onrender.com',
   );
-=======
-  // API Configuration (Render backend)
-  static const String apiBase = 'https://ai-interveiw-coach-app.onrender.com';
->>>>>>> 0b57d8ff9342b2376be60cb888e6320924ef9496
 
   // Frontend Configuration (optional, if you deploy Flutter web later)
   static const String frontendBase = 'https://ai-interveiw-coach.vercel.app';
 
   // Endpoints
 
-  // this is for the backend comminrcation
+  // this is for the backend communication
   static const String analyzeEndpoint = '/api/analyze-response';
   static const String saveResultEndpoint = '/api/save-result';
   static const String historyEndpoint = '/api/history';
@@ -169,14 +164,9 @@ class AppConfig {
   static const String lastSessionKey = 'last_session_date';
 
   // Development flags
-<<<<<<< HEAD
-  //Toggles for enabling dev-specific features or offline functionality
+  // Toggles for enabling dev-specific features or offline functionality
   static const bool isDevelopment =
       bool.fromEnvironment('DEVELOPMENT', defaultValue: true);
   static const bool enableOfflineMode =
       bool.fromEnvironment('OFFLINE_MODE', defaultValue: false);
-=======
-  static const bool isDevelopment = false; // ✅ now production mode
-  static const bool enableOfflineMode = false;
->>>>>>> 0b57d8ff9342b2376be60cb888e6320924ef9496
 }
