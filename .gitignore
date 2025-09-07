@@ -49,7 +49,7 @@ app.*.map.json
 .env.production
 
 # Firebase
-/lib/firebase_options.dart
+
 
 # Assets (uncomment if you want to ignore certain assets)
 # /assets/images/*.png
